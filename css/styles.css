@@ -1,0 +1,59 @@
+*
+{
+	margin: 0;
+}
+
+div
+{
+	width: 33%;
+	height: 100%;
+	position: relative;
+	display: block;
+
+}
+
+img
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	max-height: 100%;
+	max-width: 100%;	
+}
+
+.blue
+{
+	background-color: blue;
+	float: left;
+}
+
+.black
+{
+	background-color: black;
+	float: left;
+}
+
+.white
+{
+	background-color: green;
+    float: left;
+}
+
+.clear
+{
+	clear: left;
+	height: 10px;
+}
+
+.number
+{
+	font-size: 36px;
+	color: red;
+	position: relative;
+    top: 10px;
+    left: 10px;
+    height: 50px;
+    width: 50px;
+    font-weight: 600;
+}
