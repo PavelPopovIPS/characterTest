@@ -4,7 +4,7 @@
  	$dirDataFolder = ROOT_DIR . "/data/";
     $body = "";
 
- 	for ($i = 1; $i < 10; $i++) 
+ 	for ($i = 1; $i < 1000; $i++) 
 	{
 		if (file_exists ($dirDataFolder . $i . ".png"))
 		{
