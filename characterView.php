@@ -2,16 +2,15 @@
 	require_once('include/common.inc.php');
 	
  	$dirDataFolder = ROOT_DIR . "/data/";
-    $body = "";
+    $number = GETParam('number');
 
- 	for ($i = 1; $i < 10; $i++) 
+	if (file_exists ($dirDataFolder . $number . ".png"))
 	{
-		if (file_exists ($dirDataFolder . $i . ".png"))
-		{
-            $vars = array("i" => $i);
-			$body = $body . getView('body.html', $vars);
-		}
+        $vars = array("number" => $number);
+		$characterView = getView('characterView.html', $vars);
+		echo $characterView;
 	}
-        $header = getView('header.html', $vars);
-        $footer = getView('footer.html', $vars);
-		echo $header . $body . $footer;
+	else
+	{
+		echo "OOPS, picture not exists";
+	}

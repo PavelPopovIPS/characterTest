@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.21-dev, created on 2019-11-20 20:11:43
+<?php /* Smarty version Smarty-3.1.21-dev, created on 2019-11-20 20:31:16
          compiled from "D:\characterTest\template\body.html" */ ?>
 <?php /*%%SmartyHeaderCode:400050885dd58e46de08a9-95060590%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '03b85dc5168ab847d33ef4c23b98c30b343e7a55' => 
     array (
       0 => 'D:\\characterTest\\template\\body.html',
-      1 => 1574277101,
+      1 => 1574278231,
       2 => 'file',
     ),
   ),
@@ -29,7 +29,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       <img src="data/<?php echo $_smarty_tpl->tpl_vars['i']->value;?>
 .png"/>
 	  <div class="buttonView">
-	    <a href="characterView.html?count=<?php echo $_smarty_tpl->tpl_vars['i']->value;?>
+	    <a href="characterView.php?number=<?php echo $_smarty_tpl->tpl_vars['i']->value;?>
 " target="_blank">
 		  <img src="resourse/button.png"/>
 		</a>

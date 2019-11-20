@@ -24,19 +24,19 @@ img
 
 .blue
 {
-	background-color: blue;
+	background-color: #5b9bd5;
 	float: left;
 }
 
 .black
 {
-	background-color: black;
+	background-color: #000;
 	float: left;
 }
 
 .white
 {
-	background-color: green;
+	background-color: #fff;
     float: left;
 }
 
